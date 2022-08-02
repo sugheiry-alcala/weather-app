@@ -1,0 +1,20 @@
+.currentWeather{
+  display: flex;
+  justify-content: space-around;
+  width: 77%;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(187, 0, 255);
+  box-shadow: 0px 0px 20px 0px #d337d6;
+  color: white;
+}
+.currentWeather h1{
+  font-size: 2.8rem;
+  color:white;
+  
+  }
+.currentWeather h2{
+font-size: 1.8rem;
+color: white;
+}

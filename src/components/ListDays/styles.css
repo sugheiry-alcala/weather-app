@@ -1,0 +1,10 @@
+.daily{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1024px;
+  border: 1px solid rgb(187, 0, 255);
+  box-shadow: 0px 0px 20px 0px #d337d6;
+  border-radius: 15px;
+}

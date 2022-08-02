@@ -1,5 +1,4 @@
 import React from 'react'
-import {useApi} from "../../Context/apiContex";
 
 export const Hour = ({ weather, addHour, temp }) => {
 

@@ -5,8 +5,8 @@ const APIContext = createContext({})
 
 export const ApiContextProvider = ({ children }) => {
   const [data, setData] = useState({});
-  const [coordinates, setCoordinates] =useState([47.44, 3.16])
   useEffect(() => {
+    const coordinates = [47.44, 3.16]
     fetch(
       `${process.env.REACT_APP_API}onecall?lat=${coordinates[0]}&lon=${coordinates[1]}&units=metric&appid=${process.env.REACT_APP_API_KEY}`
     )
